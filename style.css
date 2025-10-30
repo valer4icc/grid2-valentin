@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: rgb(250, 220, 217);
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+
+  nav {
+    display: flex;
+    gap: 2rem;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+
