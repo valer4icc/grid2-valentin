@@ -25,13 +25,36 @@ body {
   display: grid;
   width: 1716px;
   height: 748px;
-  grid-template-columns: 214px 214px 214px 214px 214px 214px 214px 214px;
+  grid-template-columns: 237px 237px 237px 237px 237px 237px 237px;
   grid-template-rows: 414px 130px 155px 20px;
   gap: 10px;
 }
 
-.Artist-div1 {
+main div {
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.artist-div1 {
   background-color: rgb(250, 220, 217);
   grid-column: 1 / 4;
   grid-row: 1 / 1;
+}
+
+.image-div2 {
+  background-image: url(images/IMAGE.png);
+  grid-column: 4 / 5;
+  grid-row: 1 / 1;
+  background-size: cover;
+}
+
+.musea-div3 {
+  background-color: rgb(250, 220, 217);
+  grid-column: 6 / 8;
+  grid-row: 1 / 4;
+  padding: 1rem;
+  img{
+    border-radius: 1rem;
+    
+  }
 }
